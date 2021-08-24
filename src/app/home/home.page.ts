@@ -6,7 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  data: any;
 
   constructor() {}
 
+  ngOnInit() {
+    fetch('./assets/data.json')
+      .then((res) => res.json())
+      .then((json) => {
+        this.data = json;
+      });
+  }
 }

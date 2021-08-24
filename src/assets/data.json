@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": "Grass/Poison"
+  },
+  {
+    "name": "Ivysaur",
+    "type": "Grass/Poison"
+  },
+  {
+    "name": "Venusaur",
+    "type": "Grass/Poison"
+  },
+  {
+    "name": "Charmander",
+    "type": "Fire"
+  },
+  {
+    "name": "Charizard",
+    "type": "Fire/Flying"
+  },
+  {
+    "name": "Squirtle",
+    "type": "Water"
+  },
+  {
+    "name": "Wartortle",
+    "type": "Water"
+  },
+  {
+    "name": "Blastoise",
+    "type": "Water"
+  }
+]
